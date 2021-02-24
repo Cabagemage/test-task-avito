@@ -1,0 +1,20 @@
+.cards {
+  display: grid;
+  width: 799px;
+  max-width: 100%;
+  margin: 0 auto;
+  grid-gap: 30px 21px;
+  grid-template-columns: 229px 229px 229px;
+  margin-bottom: 379px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 600px){
+  .cards{
+    padding-left: 35px;
+    grid-template-columns: 380px;
+    grid-gap: 15px;
+  }
+  }
+
+ 
