@@ -2,7 +2,12 @@ import React from "react";
 import PopupWithForm from "./PopupWithForm";
 import "./styles/imagepopup.css";
 
-const ImagePopup = ({ modalCard, isOpen, isClose, closeToOverlay }) => {
+const ImagePopup = ({
+  modalCard,
+  isOpen,
+  isClose,
+  closeToOverlay,
+}) => {
   return (
     <PopupWithForm
       isOpen={isOpen}

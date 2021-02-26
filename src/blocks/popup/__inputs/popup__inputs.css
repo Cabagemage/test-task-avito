@@ -1,9 +1,23 @@
-.popup__inputs{
-width: 350px;
+.popup__inputs {
+  width: 350px;
+  grid-area: inputs;
 }
 
-@media screen and (max-width: 666px){
-    .popup__inputs{
+@media screen and (max-width: 670px) {
+    .popup__inputs {
+      max-width: 315px;
+    }
+  }
+
+
+@media screen and (max-width: 590px) {
+  .popup__inputs {
     max-width: 250px;
-    }
-    }
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .popup__inputs {
+    max-width: 230px;
+  }
+}

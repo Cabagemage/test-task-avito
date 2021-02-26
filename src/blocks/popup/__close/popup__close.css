@@ -13,3 +13,8 @@
   cursor: pointer;
   background-position: center;
 }
+@media screen and (max-width: 666px){
+  .popup__close{
+  top: 0;
+  }
+  }
