@@ -2,12 +2,7 @@ import React from "react";
 import PopupWithForm from "./PopupWithForm";
 import "./styles/imagepopup.css";
 
-const ImagePopup = ({
-  modalCard,
-  isOpen,
-  isClose,
-  closeToOverlay,
-}) => {
+const ImagePopup = ({ modalCard, isOpen, isClose, closeToOverlay }) => {
   return (
     <PopupWithForm
       isOpen={isOpen}
@@ -30,7 +25,9 @@ const ImagePopup = ({
                   className="popup__input popup__input_type_link"
                   placeholder="Ваш комментарий"
                 />
-                <button className="button">Оставить комментарий</button>
+                <button disabled className="button">
+                  Оставить комментарий
+                </button>
               </div>
             </div>
 
